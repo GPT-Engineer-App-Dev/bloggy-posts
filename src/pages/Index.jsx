@@ -13,6 +13,9 @@ const Index = () => {
           <Button colorScheme="teal" size="lg" onClick={() => navigate('/new-post')}>
             Add New Post
           </Button>
+          <Button colorScheme="red" size="lg" onClick={() => navigate('/delete-post')} ml={4}>
+            Delete Post
+          </Button>
         </Box>
       </VStack>
     </Container>
